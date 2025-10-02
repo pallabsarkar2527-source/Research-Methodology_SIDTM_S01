@@ -1,0 +1,5 @@
+Hypothesis,Test,Statistic,p_value,Shapiro_U_p,Shapiro_R_p,Levene_p,Shapiro_RIS_p,Shapiro_NoRIS_p,Correlation_coefficient,Shapiro_Energy_p,Shapiro_Throughput_p,Shapiro_p_values
+Latency differs between Urban and Rural,Mann-Whitney U test (non-parametric),17187.5,0.093599373762922,1.3284151372369822e-09,5.250978444934159e-10,0.5927033075786812,,,,,,
+Throughput higher when RIS used,Mann-Whitney U test (non-parametric),37757.0,6.842324500264497e-07,,,5.8064122704604234e-05,1.399054823093598e-07,1.4307799267588898e-10,,,,
+Energy consumption correlated with Throughput,Spearman rank correlation,,0.12181568461660591,,,,,,0.06928300829654406,1.0834303630381461e-08,4.3812063098614303e-13,
+Latency differs across DeviceType categories,Kruskal-Wallis (non-parametric),9.199931736130136,0.01005217883909237,,,0.11778117059108086,,,,,,"[6.719557280138346e-10, 3.938633857089121e-09, 1.7416407336718486e-08]"
